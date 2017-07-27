@@ -1,0 +1,387 @@
+<html>
+<head lang="en">
+<title>HOME</title>
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" />
+    <link rel="stylesheet" href="/static/assets/font-awesome-4.6.3/css/font-awesome.min.css" /><link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+
+  <style>
+  
+.black {
+    color: black !important;
+}
+ footer {
+      background-color: white;
+    
+  }
+  footer a {
+      color: white;
+  }
+  footer a:hover {
+      color: #777;
+      text-decoration: none;
+  } 
+
+
+   #googleMap {
+      width: 100%;
+      height: 400px;
+      -webkit-filter: grayscale(100%);
+      filter: grayscale(100%);
+  }  
+  .navbar {
+      font-family: Montserrat, sans-serif;
+      margin-bottom: 0;
+      background-color: #2d2d30;
+      border: 0;
+      font-size: 11px !important;
+      letter-spacing: 4px;
+      opacity: 0.9;
+  }
+  .navbar li a, .navbar .navbar-brand { 
+      color: #d5d5d5 !important;
+  }
+  .navbar-nav li a:hover {
+      color: #fff !important;
+  }
+  .navbar-nav li.active a {
+      color: #fff !important;
+      background-color: #29292c !important;
+  }
+  .navbar-default .navbar-toggle {
+      border-color: transparent;
+  }
+  .open .dropdown-toggle {
+      color: #fff;
+      background-color: #555 !important;
+  }
+  .dropdown-menu li a {
+      color: #000 !important;
+  }
+  .dropdown-menu li a:hover {
+      background-color: red !important;
+  }
+  #c1,#c2{
+    height: 560px !important;
+
+  }
+  .carousel-inner img {
+      -webkit-filter: grayscale(10%);
+      filter: grayscale(10%); /* make all photos black and white */ 
+      width: 100%;
+      .transition(.1s ease-in-out left);
+
+       /* Set width to 100% */
+      margin: auto;
+  }
+  .carousel-caption h3 {
+      color: #fff !important;
+  }
+  @media (max-width: 600px) {
+    .carousel-caption {
+      display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
+    }
+  }
+  .container {
+      padding: 80px 120px;
+  }
+  body {
+      font: 400 15px/1.8 Lato, sans-serif;
+      color: #777;
+  }
+  h3, h4 {
+      margin: 10px 0 30px 0;
+      letter-spacing: 10px;      
+      font-size: 20px;
+      color: #111;
+  }
+  .bg-1 {
+      background: #2d2d30;
+      color: #bdbdbd;
+      width: 100%;
+  }
+  .bg-1 h3 {color: #fff;}
+  .bg-1 p {font-style: italic;}
+ 
+  .s1{
+  	padding-bottom:40px;
+  }
+  #pi{
+    font-size: 20px;
+  }
+  #hi{
+    font-size: 20px;
+  }
+  #pi1{
+    font-size: 30;
+    color: white;
+    font-family: sans-serif;
+    font-style:normal;
+  }
+  #h2{
+    font-size: 50px;
+    color: white;
+  }
+  #hi6
+  {
+    font-size: 40px;
+  }
+ 
+ 
+
+.bgimg-1 {
+  background-image: url("love.jpg");
+  min-height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+#cd1{
+  position:center;
+  background-size: 100px;
+}
+.contact ul.list-social li a{
+  display:block;
+  height:200px;
+  width:100%;
+  line-height:80px;
+  font-size:80px;
+  border-radius:100%;
+  color:#fff;
+  padding: 100px;
+
+}
+#h2c
+{
+  text-align: center;
+  font-size: 60px;
+}
+#sp1{
+  text-align: center;
+  font-size: 20px;
+  padding: 2px;
+}
+#cp1{
+  text-align: center;
+  font-size: 20px;
+  padding: 2px;
+}
+.landing-page .header {
+  height: 100vh;
+}
+.landing-page .header .container {
+  padding-top: 26vh;
+  color: #FFFFFF;
+}
+.landing-page .header .share {
+  margin-top: 150px;
+}
+.landing-page .header h1 {
+  font-weight: 600;
+}
+.landing-page .header .title {
+  color: #FFFFFF;
+}
+.landing-page .wrapper {
+  background: #CCCCCC;
+}
+.btn-primary{
+  border: none;
+  border-radius: 3px;
+  position: relative;
+  padding: 12px 30px;
+  margin: 10px 1px;
+  font-size: 12px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0;
+  background-color: #E53935 !important;
+  will-change: box-shadow, transform;
+  transition: box-shadow 0.2s cubic-bezier(0.4, 0, 1, 1), background-color 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0 2px 2px 0 rgba(156, 39, 176, 0.14), 0 3px 1px -2px rgba(156, 39, 176, 0.2), 0 1px 5px 0 rgba(156, 39, 176, 0.12);
+}
+#cf1{
+  background-color: #2d2d30;
+}
+#title{
+  color:#E53935;
+  text-align: center;
+  font-size: 50px;
+}
+#desc{
+  color:#FFEBEE;
+  text-align: center;
+  font-size: 30px;
+}
+#lab{
+  color: #fff;
+  font-size: 20px;
+}
+#social{
+  text-align: center;
+}
+  </style>
+</head>
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
+	<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand s1" href="home.php"><img src="logo.png"></a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="home.php">HOME</a></li>
+        <li><a href="about.php">ABOUT</a></li>
+        <li><a href="gallery.php">GALLERY</a></li>
+        <li><a href="events.php">EVENTS</a></li>
+        <li><a href="contact.php">CONTACT</a></li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+<!-- SLIDESHOW -->
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+      <li data-target="#myCarousel" data-slide-to="3"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <img src="image5176.jpg" alt="original building" width="1200" height="700">
+        <div class="carousel-caption">
+         <h3>THE ASSOCIATION FAMILY</h3>
+          <p>One for all & All for One</p>
+        </div>      
+      </div>
+
+      <div class="item">
+        <img src="image 13.jpg" alt="nursery building" width="1200" height="700">
+        <div class="carousel-caption">
+          <h3>THE NURSERY BUILDING</h3>
+          <p>A foundation for the future.</p>
+        </div>      
+      </div>
+    
+      <div class="item">
+        <img src="image14.jpg" alt="Arati aunty" width="1200" height="700">
+        <div class="carousel-caption">
+          <h3>MISS ARATI PATRA</h3>
+          <p>Our very first HeadMistress and beloved "Big Aunty"</p>
+        </div>
+        </div>
+    <div class="item">
+        <img src="im12.jpg" alt="sbaa family" width="1200" height="700">
+        <div class="carousel-caption">
+           <h3>THE ORIGINAL BUILDING </h3>
+          <p>It has a history of over five decades.</p>
+        </div>      
+      </div>
+    </div>      
+      </div>
+    
+
+    <!-- Left and right controls -->
+    <a id="c1"class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a id="c2"class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+</div>
+<div id="band" class="container text-center">
+  <h3 id="hi">SHISHU BIHAR ALUMNI ASSOCIATION</h3>
+  <p id="hi"><em>We love our beloved school</em></p>
+  <p id="pi">An united forum of the established ex-students of prestigiuos institution of Shishu Bihar is happy to extend their hands for the society,as well as for their beloved school from where they got the education of humanity,culture and livelihood.Most of the student of Shishu Bihar school established in almost every field,throughout the world,has taken up role effort towards the welfare of their school.Established in 2011,the organization is involved in various activities</p>
+</div>
+<div id="band" class="bg-1 container text-center">
+  <h2 id="h2"><u>OUR UPCOMING EVENT</u></h3>
+    <p id="pi1">Blood Donation Camp</p>
+    <p id="pi1">Date:11th June,2017</p>
+    <p id="pi1">Time:10 am</p>
+    <p id="pi1">Venue:Red Cross Society Hall</p>
+</div>
+
+  <section id="contact" class="contact bg-primary">
+        <div class="container">
+            <h2 id="h2c">We <i class="fa fa-heart"></i> new friends!</h2>
+            <div id="social"><ul class="list-inline list-social">
+                
+                <li class="social-facebook">
+                    <a href="https://www.facebook.com/shishubiharalumni/" target="_blank"><i class="fa fa-facebook"></i></a>
+                </li>
+                <li class="social-google-plus">
+                    <a href="https://plus.google.com/111737465280008752739" target="_blank"><i class="fa fa-google-plus"></i></a>
+                </li>
+            </ul>
+            </div>
+        </div>
+    </section>
+
+<footer class="footer">
+            <div class="container">
+               
+                <div class="copyright" id="cp1">
+                  &copy; Shishu Bihar Alumni Association
+                </div>
+                <br>
+                <br>
+                <div class="copyright text-center">
+                <div id="sp1"><i class="fa fa-code" aria-hidden="false"></i> with <i class="fa fa-heart heart"></i> and <i class="fa fa-coffee"></i> by <a href="https://www.linkedin.com/in/chirantan-das-59070410b/" class="title black">Chirantan Das</a></div>
+                </div>
+            </div>
+        </footer>
+<script>
+$(document).ready(function(){
+  // Initialize Tooltip
+  $('[data-toggle="tooltip"]').tooltip(); 
+  
+  // Add smooth scrolling to all links in navbar + footer link
+  $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 900, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+})
+</script>
+
+</body>
+</html>
